@@ -2,13 +2,13 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "my-better-t-app",
-    short_name: "my-better-t-app",
-    description: "my pwa app",
-    start_url: "/new",
+    name: "Glide",
+    short_name: "Glide",
+    description: "A local-first planner that turns a messy task list into a realistic daily runway.",
+    start_url: "/",
     display: "standalone",
-    background_color: "#ffffff",
-    theme_color: "#000000",
+    background_color: "#f8f5eb",
+    theme_color: "#1f8f83",
     icons: [
       {
         src: "/favicon/web-app-manifest-192x192.png",
